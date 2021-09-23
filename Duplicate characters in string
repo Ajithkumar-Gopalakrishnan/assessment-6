@@ -1,0 +1,7 @@
+str=str(input("Enter a string:"))
+for i in range(0,len(str)):
+    for j in range(i+1,len(str)):
+        if(str[i]==str[j]):
+            print("The repeated character is:",str[i])
+        else:
+            print(end="")
